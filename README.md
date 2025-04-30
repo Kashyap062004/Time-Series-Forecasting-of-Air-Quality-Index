@@ -47,13 +47,16 @@ This project focuses on time series analysis and forecasting of the **Air Qualit
 
 ## 📈 Results Summary
 
-| Model         | RMSE (Test) | MAE (Test) | R² (Test) |
-|---------------|-------------|------------|-----------|
-| Historical Mean | 22.96     | —          | —         |
+| Model          | RMSE (Test)| MAE (Test) | R² (Test) |
+|----------------|------------|------------|-----------|
+|Historical Mean | 22.96      | —          | —         |
 | Naive          | 14.28      | —          | —         |
 | Drift          | 18.53      | —          | —         |
 | ARIMA(2,1,1)   | 4.28       | —          | —         |
-| GRU (with EMD) | **9.47**   | **7.55**   | **0.82**  |
+| GRU            | 14.00      | 10.84      | 0.59      |
+| LSTM           | 14.02      | 10.78      | 0.59      |
+| RNN            | 13.90      | 10.70      | 0.59      |
+| GRU (with EMD) | 9.47       | 7.55       | 0.82      |
 | LSTM (with EMD)| 13.36      | 10.92      | 0.64      |
 | RNN (with EMD) | 11.90      | 9.71       | 0.71      |
 
@@ -73,11 +76,7 @@ This project focuses on time series analysis and forecasting of the **Air Qualit
 
 ---
 
-## 🚀 Future Work
 
-- Experiment with **Ensemble EMD (EEMD)**, **VMD**, or **Wavelet Transforms**.
-- Incorporate **CNN-LSTM** or **Transformer-based models**.
-- Build a **real-time AQI dashboard** for public awareness.
 
 ---
 
