@@ -62,10 +62,7 @@ This project focuses on time series analysis and forecasting of the **Air Qualit
 
 ---
 
-## 📂 Project Structure
 
-
----
 
 ## 🔬 Key Learnings
 
