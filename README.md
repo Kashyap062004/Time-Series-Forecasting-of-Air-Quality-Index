@@ -11,7 +11,7 @@ This project focuses on time series analysis and forecasting of the **Air Qualit
 - **Source**: Central Pollution Control Board (CPCB) [https://airquality.cpcb.gov.in/AQI_India/](https://airquality.cpcb.gov.in/AQI_India/)
 - **Timeframe**: May 1, 2019 – February 28, 2025
 - **Location**: Gandhinagar, Sector 10
-- **Pollutants Tracked**: PM2.5, PM10, NO₂, NH₃, SO₂, CO, O₃
+- **Pollutants Tracked**: PM2.5, PM10, NO₂, NH₃, SO₂, CO, O₃,AQI
 
 ---
 
@@ -20,6 +20,7 @@ This project focuses on time series analysis and forecasting of the **Air Qualit
 ### 1. **Data Collection and Preprocessing**
 - Data scraped using TypeScript from CPCB's APIs
 - Cleaned and structured using Python
+- Processed data ["https://raw.githubusercontent.com/Krishil-Jayswal/AQI-Forecasting/refs/heads/main/2.%20Data%20Preprocessing/full_aqi_dataset.csv"]
 
 ### 2. **Exploratory Data Analysis (EDA)**
 - Visualization of daily AQI trends
